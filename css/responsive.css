@@ -1,0 +1,296 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 6 version
+*/
+
+@media(max-width: 768px){
+    /* design */
+     .navigation{
+        display: none;
+     }
+     .card-title{
+         text-align: center;
+     }
+     .botton-login{
+         display: block;
+     }
+     .burger-menu-wrapper{
+         display: block;
+     }
+     
+     .container{
+         max-width: 668px;
+         margin: 0 auto;
+     }
+     .cards{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     .main-logo{
+         margin-bottom: 20px;
+     }
+     .resp-logo {
+         display: none;
+     }
+     .blog-title{
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 72px;
+     }
+     .blog-cards{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+         -webkit-column-gap: 40px;
+            -moz-column-gap: 40px;
+                 column-gap: 40px;
+     }
+     .card-section2{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     .responsive-card{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+     }
+     .section3-website{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+         -webkit-box-align: center;
+             -ms-flex-align: center;
+                 align-items: center;
+     }
+     .section3-title{
+         width: 600px;
+         font-weight: 400;
+         font-size: 36px;
+         line-height: 72px;
+         text-align: center;
+     }
+     .website-cards{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+         padding-bottom: 50px;
+     }
+     .section4{
+         -webkit-box-pack: start;
+             -ms-flex-pack: start;
+                 justify-content: start;
+         margin-left: 80px;
+     }
+     .blog-cards{
+         row-gap: 30px;
+     }
+ 
+     .email-card h2{
+         width: 600px;
+         font-size: 36px;
+         
+     }
+ 
+     .resp-p{
+         display: none;
+     }
+ 
+     /* blog */
+     .section-blog h2{
+         font-size: 40px;
+     }
+     .blog-box h2{
+         font-size: 38px;
+     }
+     .blog-img{
+         width: 500px;
+         margin: 0 auto;
+     }
+     .blog-box{
+         width: 450px;
+         padding-top: 30px;
+         margin: 0 auto;
+     }
+     .blog1-title{
+         text-align: center;
+     }
+     .blog1-title{
+         font-size: 40px;
+     }
+     .blog1-boxes-group{
+         width: 670px;
+         margin: 0 auto;
+         
+     }
+ 
+     /* about */
+     .about-position, .textbox-story{
+         width: 700px;
+        
+     }
+     .textbox-story{
+         padding-bottom:50px;
+     }
+     .about-title, .story-title{
+         width: 650px;
+         font-size: 46px;
+     }
+     .ournumber{
+       height: 300px;
+       padding-top: 30px;
+     }
+     .about-p, .story, .story-p{
+         width: 650px;
+     }
+     .img-section{
+         -webkit-box-align: center;
+             -ms-flex-align: center;
+                 align-items: center;
+     }
+     .poto-section1, .poto-section2{
+         width: 200px;
+             
+     }
+     .number-title{
+         font-size: 40px;
+         margin: 0 auto;
+     }
+     .cool-number{
+         font-size: 46px;
+         text-align: center;
+     }
+     .our-value{
+         min-height: 1000px;
+         padding-top: 1px;
+         padding-bottom: 35px;
+     }
+     .value-box-text{
+         width: 450px;
+     }
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media(max-width: 600px){
+    /* design */
+     .container{
+         max-width: 500px;
+         margin: 0 auto;
+     }
+    
+     
+     .card-title{
+         /* width: 300px; */
+         font-weight: 400;
+         font-size: 40px;
+         text-align: center;
+         line-height: 40px;
+         margin-bottom: 30px;
+         margin-top: 80px;
+     }
+     .but{
+         font-size: 14px;
+     }
+     .resp-logo1 {
+         display: none;
+     }
+     .blog-title{
+         font-weight: 400;
+         font-size: 28px;
+         line-height: 72px;
+     }
+     .section2-title{
+        
+         font-size: 24px;
+         text-align: center;
+ 
+     }
+     .card-section2{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     .section3-title{
+         width: 400px;
+         font-size: 24px;
+         text-align: center;
+     }
+     .section4{
+         margin: 0 auto;
+     }
+     .email-card h2{
+         font-size: 24px;
+     }
+     .section4 h3{
+         font-size: 24px;
+         text-align: center;
+     }
+     .connect2 p{
+         font-size: 18px;
+     }
+     .start-now{
+         -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+         row-gap: 20px;
+     }
+     
+     .but-startnow{
+         font-size: 14px;
+     }
+ 
+     /* blog */
+     .blog1-boxes-group{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+         -webkit-box-align: center;
+             -ms-flex-align: center;
+                 align-items: center;
+     }
+ 
+     /* about */
+     .about-position, .textbox-story{
+         width: 500px;
+     }
+     .about-title, .story-title{
+         width: 450px;
+         font-size: 40px;
+         line-height: 50px;
+     }
+ 
+     .story, .about-p,  .story-p{
+         width: 500px;
+         
+     }
+     .story{
+         text-align: center;
+     }
+     .poto-section1 img{
+         width: 200px;
+         height: 190px;
+     }
+     .poto-section2{
+         display: none;
+     }
+     
+ }
+     
+     
