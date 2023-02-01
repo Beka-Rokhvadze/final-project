@@ -194,7 +194,9 @@
          max-width: 500px;
          margin: 0 auto;
      }
-    
+    .registration{
+        width: 500px;
+    }
      
      .card-title{
          /* width: 300px; */
@@ -257,6 +259,7 @@
  
      /* blog */
      .blog1-boxes-group{
+        width: 500px;
          -webkit-box-orient: vertical;
          -webkit-box-direction: normal;
              -ms-flex-direction: column;
